@@ -1,1 +1,142 @@
-Hello World
+<html>
+	<head>
+		<style>
+			body{
+				text-align:center; 
+			}
+
+			@-webkit-keyframes canvasAnimation {
+				0%   {-webkit-transform:rotate(2160deg);left:0px; top:0px;}
+			}
+
+			.cell {
+				border-radius: 10%;
+				width: 100px;
+				height: 100px;
+				border: solid;
+				border-color: black;
+				border-width: 2px;
+				display: inline-block;
+				font-size: 80px;
+				text-align: center;
+				padding-top: 10px;
+				-webkit-animation:canvasAnimation 2s; 
+			}
+
+			#restart {
+				margin-top: 10px;
+				border-radius: 10%;
+				font-size: 20px;
+				background-color: black;
+				color: white;
+			}
+
+		</style>
+
+		
+	</head>
+	<body>
+		<div id ="box">
+			<h3> TIC - TAC - TOE! </h3>
+			<div class="cell" id = "canvas1" >* </div>
+			<div class="cell" id = "canvas2" >* </div>
+			<div class="cell" id = "canvas3" >* </div>
+			<br/>
+			<div class="cell" id = "canvas4" >* </div>
+			<div class="cell" id = "canvas5" >* </div>
+			<div class="cell" id = "canvas6" >* </div>
+			<br/>
+			<div class="cell" id = "canvas7" > *</div>
+			<div class="cell" id = "canvas8" > *</div>
+			<div class="cell" id = "canvas9" > *</div>
+		</div>
+		<button id="restart" style="width:100px; height:100px;">Restart</button>
+	</body>
+
+	<script>
+			var painted;
+	        var content;
+	        var winningCombinations;
+	        var turn = 0;
+	        var theCanvas;
+	        var c;
+	        var cxt;
+	        var squaresFilled = 0;
+	        var w;
+	        var y;
+
+	        window.onload = function() {
+	            
+	            painted = new Array();
+	            content = new Array();
+	            winningCombinations = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+
+	            for(var l = 0; l <= 8; l++){
+	                painted[l] = false;
+	                content[l]=''; 
+	            }
+	        }
+
+	        function checkForWinners(symbol){
+	            
+	            for (var a = 0; a < winningCombinations.length; a++){
+		            if (content[winningCombinations[a][0]] === symbol && 
+		            	content[winningCombinations[a][1]] === symbol &&
+		            	content[winningCombinations[a][2]] === symbol) {
+		                alert(symbol+ " WON!");
+		                playAgain();
+		            }
+	            }
+
+	        }
+
+	        function playAgain(){
+	            y = confirm("PLAY AGAIN?");
+	            if(y === true) {
+	                location.reload(true);
+	            } else {
+	                alert("SO LONG!");
+	        	}
+
+	        }
+
+	        document.getElementById("restart").addEventListener("click", function() {
+			    //playAgain();
+			    y = confirm("Do you really want to restart the game?");
+				if (y === true) {
+					location.reload(true);
+				}
+			});
+
+			document.getElementById("box").addEventListener("click", function(e) {
+				//alert(e.target.id);
+				
+				var canvasNumber = e.target.id[6];
+				var theCanvas = "canvas" + canvasNumber;
+
+				var c = document.getElementById(theCanvas);
+				if(painted[canvasNumber-1] === false){
+					if (turn % 2 === 0) {
+						c.innerHTML = 'X';
+						content[canvasNumber-1] = 'X';
+					} else {
+						c.innerHTML = 'O';
+						content[canvasNumber-1] = 'O';
+					}
+					turn++;
+					painted[canvasNumber-1] = true;
+	                squaresFilled++;
+	                checkForWinners(content[canvasNumber-1]);
+
+	                if(squaresFilled==9){
+	                    alert("THE GAME IS OVER!");
+	                    location.reload(true);
+	                }
+				}
+	            
+	            else{
+	                alert("Wrong Attempt!");
+	            }
+			});
+		</script>
+</html>
