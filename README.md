@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
+<h1 align="center">
+  <a href="https://github.com/mtobeiyf/vuepress-homepage" title="Homepage">
+    <img src="https://user-images.githubusercontent.com/5097752/39163721-4c79012c-47ae-11e8-842b-2af72f69cc2c.jpg" width="300px" alt="">
+  </a>
+  <br />
+  Your Awesome Homepage
+</h1>
 
-You can use the [editor on GitHub](https://github.com/ankitbhatia8993/ankitbhatia.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  Build your site like a Pro :v:
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="">
+  <img src="https://img.shields.io/badge/PR-welcome-brightgreen.svg" alt="">
+</p>
 
-### Markdown
+<h2>
+  <a href="https://vuepress-homepage.netlify.com" target="_blank" title="Demo">
+    Live Demo
+  </a>
+</h2>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mtobeiyf/vuepress-homepage)
 
-```markdown
-Syntax highlighted code block
+Screenshots:
 
-# Header 1
-## Header 2
-### Header 3
+| Home/Resume :newspaper: | Projects/Publications :books: |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/71707796-8b275880-2dba-11ea-8db0-03172722c35d.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707797-8b275880-2dba-11ea-8239-c51f4bac6542.png"/> |
 
-- Bulleted
-- List
+| About Me :raising_hand: | Docs/Articles :closed_book: |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/71707795-8b275880-2dba-11ea-9440-987d542c560c.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707798-8b275880-2dba-11ea-9777-d9d64ac4ad45.png"/> |
 
-1. Numbered
-2. List
+<h2>
+  <a href="https://vuepress-homepage.netlify.com/guide/" target="_blank" title="Getting Started">
+    Getting Started
+  </a>
+</h2>
 
-**Bold** and _Italic_ and `Code` text
+Check the full documentation here :point_right: [Guide](https://vuepress-homepage.netlify.com/guide/)
 
-[Link](url) and ![Image](src)
+Make sure you have [Node.js](https://nodejs.org) and [yarn](https://yarnpkg.com) installed.
+
+```bash
+# Clone the repo
+git clone https://github.com/mtobeiyf/vuepress-homepage.git
+cd vuepress-homepage
+
+# Install VuePress
+yarn global add vuepress
+# OR npm install -g vuepress
+
+# Install dependencies
+yarn
+# OR npm install
+
+# Run
+$ yarn dev
+# OR npm run dev
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Check your site at `http://127.0.0.1:8080/`
 
-### Jekyll Themes
+## Features
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ankitbhatia8993/ankitbhatia.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Markdown and emoji supported :smiley:
+- Elegant and minimalistic
+- Customizable and mobile-friendly
+- Multi-language support
+- Powered by [VuePress](https://vuepress.vuejs.org/) and [Vue.js](https://vuejs.org/)
 
-### Support or Contact
+It's **static**, which means once generated, your site could be deployed anywhere, like [Netlify](https://www.netlify.com/) or [GitHub Pages]()
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+| Simple Editing | Elegant Output |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39165083-42470364-47b5-11e8-8e1b-e225e6cf4161.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39165092-4af03422-47b5-11e8-986e-02bee0fe6979.jpg"/> |
+
+It's **responsive** and **mobile friendly**.
+
+| Main | Projects | Doc | Sidebar |
+| :---: | :---: | :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39163461-30a0e754-47ad-11e8-84ff-0c6716d6e937.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163230-2c917634-47ac-11e8-9c08-a87336c0bb02.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163235-32001436-47ac-11e8-8a80-f5aa1d639b82.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39163238-368bfb5a-47ac-11e8-81b9-78a38af16dfe.jpg"/> |
+
+
+
+## Credit
+
+[VuePress](https://vuepress.vuejs.org/): Vue-powered Static Site Generator
+
+[Vue.js](https://vuejs.org/): The Progressive JavaScript Framework
+
+## License
+
+Copyright © 2020, Fing
+
+Released under the [MIT License](https://opensource.org/licenses/MIT).
