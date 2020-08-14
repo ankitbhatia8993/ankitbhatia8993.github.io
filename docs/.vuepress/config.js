@@ -3,7 +3,7 @@ module.exports = {
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
-  dest: "./dist",
+  // dest: "./dist",
 
   themeConfig: {
     search: false,
