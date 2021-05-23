@@ -1,5 +1,5 @@
 <template>
-  <div class="profile">
+  <div style="text-align: justify; text-justify: inter-word;" class="profile">
     <div v-if="data.profile" class="image">
       <img :src="$withBase(data.profile)" alt="">
     </div>
@@ -42,10 +42,12 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" style="text-align: justify; text-justify: inter-word;">
 @import './styles/config.styl'
 
 .profile
+  text-align justify
+  text-justify inter-word
   display flex
   flex-direction row
   align-items stretch

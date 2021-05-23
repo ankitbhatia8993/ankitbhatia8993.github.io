@@ -21,7 +21,7 @@ actions:
   link: https://medium.com/@ankitbhatia8993
 - text: CV
   link: /article/
-footer: Made with ♥ by Fing. Template copied by me.
+footer: 
 ---
 
 <AboutCard :frontmatter="$page.frontmatter" >

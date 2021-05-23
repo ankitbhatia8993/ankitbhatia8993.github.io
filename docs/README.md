@@ -20,13 +20,12 @@ socials:
     link: 'mailto:ankitbhatia8993@gmail.com'
 
 <!-- cv: https://www.linkedin.com/in/ankitbhatia8993/ -->
-bio: Developer at DocOn (A subsidiary of PharmEasy - India's Leading Medicine Ordering App)
+bio: Developer at Pharmeasy (India's leading healthcare e-commerce platform)
 ---
 
-<ProfileSection :frontmatter="$page.frontmatter" />
+<ProfileSection :frontmatter="$page.frontmatter" style="text-align: justify; text-justify: inter-word;"/>
 
 ## About Me
-
 Experienced Software Engineer with a demonstrated history of working in the e-commerce industry. Skilled in Python and Java. Strong engineering professional with a Bachelor of Technology (B.Tech.) focused in Computer Science from [Indian Institute of Information Technology](https://en.wikipedia.org/wiki/Indian_Institute_of_Information_Technology,_Allahabad) :mortar_board:
 
 
@@ -34,49 +33,69 @@ Experienced Software Engineer with a demonstrated history of working in the e-co
 
 - [Languages] - Python and Java
 - [Databases] - MySQL, PostgreSQL, ElasticSearch and Redis 
-- [Other tools & frameworks] - RabbitMQ, git, Spring and Django
+- [Other tools & frameworks] - RabbitMQ, Flask, Spring and Django
 
 ## Experiences & Education
 
-- **Principal Software Engineer - [Docon](https://docon.co.in) - [Pharmeasy](https://pharmeasy.in)** <br/>
-[October 2019 - Today] <br/><br/>
+- **Technical Lead - [Pharmeasy](https://pharmeasy.in)** (India's leading healthcare e-commerce platform) <br/>
+[October 2020 - Present]
+<br/>
+<ul style="text-align: justify; text-justify: inter-word; margin-top: 4px;">
+  <li>Leading a tech team of 3 members responsible for the development of back-end services in the diagnostics vertical - Order management, Lab Management and Search service.</li>
+  <li>Designed and developed system integration with multiple third party labs; Business impact of 6x increase in order rate.</li>
+  <li>Enhanced the user experience by improving prescription upload flow; Reduced number of clicks by 60\%.</li>
+  <li>Responsible for defining and execution of the non-business tech road-map.</li>
+</ul>
+<br/>
 
-- **Senior Software Engineer - [Myntra](https://myntra.com)** <br/>
+- **Principal Software Engineer - [Docon](https://docon.co.in) - [Pharmeasy](https://pharmeasy.in)** (An EMR platform) <br/>
+[October 2019 - September 2020]
+<ul style="text-align: justify; text-justify: inter-word; margin-top: 4px;">
+  <li>Designed and coded - (i) Payments and invoicing part of the Doctor online consultation platform, (ii) Platform level storage service, (iii) Doctor analytics platform - A platform which includes operational and patient analytics for Doctors.</li>
+</ul>
+<br/>
+
+- **Senior Software Engineer - [Myntra](https://myntra.com)** (India's largest fashion e-commerce platform) <br/>
 [September 2017 - October 2019] <br/>
-<p> Built a fashion trends system to make Myntra catalog more trendy and more profitable.</p>
+<ul style="text-align: justify; text-justify: inter-word; margin-top: 4px;">
+  <li>Fashion Trends System - Developed an application to identify current global fashion trends; Business impact - Made Myntra catalog more fashionable and more profitable through  (i) Product Ranking, (ii) Pricing and Discounting, (iii) Search Recommendations, (iv) Design Inspirations, (v) Trend store for Myntra Mobile Application</li>
+</ul>
 <br/>
 
 - **Software Engineer - [Myntra](https://myntra.com)** <br/>
 [July 2015 - September 2017] <br/>
-<dl> 
-<dt> Myntra-Jabong Integration </dt>
-<dd> - Led integration of Myntra Seller system applications with Jabong platform. </dd>
-<dd> - Worked with the core team making Myntra applications multi-tenant. </dd>
-</br>
-<dt> Myntra Platform </dt>
-<dd> - Revamped Myntra Vendor Management System (ExtJS to ReactJS). </dd>
-<dd> - Developed front-end and back-end for Vendor Stock Movement tool. (Vendor Portal adoption was increased by 21%) </dd>
-<dd> - Redesign and Redevelopment of Vendor Discount Management System tool(back-end). </dd>
-<dd> - One of the three developers of Manufacturing Tracking Application. </dd>
-<dd> - Developed Seller Reporting feature of Seller Payment System (Integration with Citrus). </dd>
-<dd> - One of the two developers of Inbound Logistics Android App. </dd>
-</dl>
+<ul style="text-align: justify; text-justify: inter-word; margin-top: 4px;">
+<li> Myntra-Jabong Integration </li>
+<ul>
+<li> Led integration of Myntra Seller system applications with Jabong platform. </li>
+<li> Worked with the core team making Myntra applications multi-tenant. </li>
+</ul>
+<li> Myntra Platform </li>
+<ul>
+<li> Revamped Myntra Vendor Management System (ExtJS to ReactJS). </li>
+<li> Developed front-end and back-end for Vendor Stock Movement tool. (Vendor Portal adoption was increased by 21%) </li>
+<li> Redesign and Redevelopment of Vendor Discount Management System tool(back-end). </li>
+<li> One of the three developers of Manufacturing Tracking Application. </li>
+<li> Developed Seller Reporting feature of Seller Payment System (Integration with Citrus). </li>
+<li> One of the two developers of Inbound Logistics Android App. </li>
+</ul>
+</ul>
 <br/>
 
 - **Software Engineer Internship - [Myntra](https://myntra.com)** <br/>
 [January 2015 - July 2015] <br/>
-<p>Developed back end for Seller Scorecard based on important factors like delivery time, revenue, order count, quality, amongst others. </p> <br/>
+<p>Developed back-end for Seller Scorecard based on important factors like delivery time, revenue, order count, quality, amongst others. </p> <br/>
 
 - **B.Tech - Indian Institute of Information Technology, Allahabad** <br/>
 [July 2011 - June 2015] <br/>
-<dl> 
-<dt> - Artificial Intelligence </dt>
-<dt> - Data Structures & Algorithms </dt>
-<dt> - Database Management System </dt>
-<dt> - Design and Analysis of Algorithms </dt>
-<dt> - Operating System </dt>
-<dt> - Computer Networking </dt>
-</dl>
+<ul> 
+<li> Artificial Intelligence </li>
+<li> Data Structures & Algorithms </li>
+<li> Database Management System </li>
+<li> Design and Analysis of Algorithms </li>
+<li> Operating System </li>
+<li> Computer Networking </li>
+</ul>
 
 ## Projects
 </br>
@@ -119,7 +138,7 @@ in school.
 
 <!-- Custom style for this page -->
 
-<style lang="stylus">
+<style lang="stylus" style="text-align: justify; text-justify: inter-word;">
 
 .theme-container.home-page .page
   font-size 14px
