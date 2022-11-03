@@ -1,9 +1,9 @@
 module.exports = {
   title: "Ankit Bhatia",
-  description: "The description of the site.",
+  description: "All about me.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
-  dest: "./dist",
+  // dest: "./dist",
 
   themeConfig: {
     search: false,
@@ -29,18 +29,18 @@ module.exports = {
   }
 };
 
-// function genSidebarConfig (title) {
-//   return [
-//     {
-//       title,
-//       collapsable: true,
-//       children: [
-//         '',
-//         'getting-started',
-//         'customize',
-//         'advanced',
-//       ]
-//     }
-//   ]
-// }
+function genSidebarConfig (title) {
+  return [
+    {
+      title,
+      collapsable: true,
+      children: [
+        '',
+        'getting-started',
+        'customize',
+        'advanced',
+      ]
+    }
+  ]
+}
 

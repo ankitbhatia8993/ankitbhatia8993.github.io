@@ -7,6 +7,10 @@
   "scripts": {
     "clean": "rimraf dist/*",
     "dev": "vuepress dev docs",
+<<<<<<< HEAD
+=======
+    "build": "vuepress build docs",
+>>>>>>> dea1f40603bd8c2fd2deb4cd684cf871afc501c3
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
